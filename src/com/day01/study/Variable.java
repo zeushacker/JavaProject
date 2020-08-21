@@ -8,11 +8,6 @@ package com.day01.study;
  *    - 변수의 타입 다음에 변수의 이름을 적어서 선언한다.
  */
 
-
-
-
-
-
 class Add {// 더하기
 
       static int a;
@@ -59,10 +54,11 @@ class Mul { //곱셈
 class Div { //나누기
 	
 	public void div() {
-		int a, b, c;
+		int a;
+		double b, c;
 		a =10; b=20;
-		c = a / b;
-		System.out.printf("%d / %d = %d", a, b, c);
+		c =a / b;
+		System.out.printf("%d / %.1f = %.1f", a, b, c);
 		
 	}
 	
@@ -78,8 +74,7 @@ public class Variable {// 계산기
 		d.div();
 		System.out.println();
 		
-		System.out.println(Add.a);
-		System.out.println(Add.a);
+		
 	}
 
 }
