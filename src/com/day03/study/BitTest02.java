@@ -6,8 +6,6 @@ public class BitTest02 {
 		int a = 13, b = 7;
 		
 		System.out.printf("a & b :%d\n", a & b);
-		
-       	
 		System.out.printf("a & b :%d\n", a | b);
 		System.out.printf("a & b :%d\n", a ^ b);
 	}
