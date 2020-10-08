@@ -22,12 +22,14 @@ public class ArrayExam02 {
 		// 배열에 값 저장
 		for(i=0; i<arr.length;i++) {// 행
 			for(j =0; j<arr[i].length; j++) {//열
-				arr[i][j] = n+j;
+				arr[i][j] = n;
+				n++;
+				//arr[i][j] = n+j;
 				//n++;
 				
 			}
 			//n=i+2;
-			n++;
+		//	n++;
 		}
 		System.out.println();
 		
